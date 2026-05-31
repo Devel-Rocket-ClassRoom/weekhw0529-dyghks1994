@@ -5,16 +5,18 @@
 #include <random>
 #include <time.h>
 
-#include "Homework01_Run.h"
+#include "Homework01.h"
+#include "Homework02.h"
 
 int main()
 {
 	unsigned int Seed = (unsigned int)time(0);
-	Seed = 0;		// 테스트용으로 임시로 설정
+	//Seed = 0;		// 테스트용으로 임시로 설정
 	srand(Seed);	// 시드값 초기화
 
 
-	Homework01_Run();	
+	//Homework01_Run();	
+	Homework02_Run();	
 }
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴

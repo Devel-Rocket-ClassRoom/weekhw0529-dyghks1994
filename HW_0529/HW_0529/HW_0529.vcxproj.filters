@@ -18,12 +18,18 @@
     <ClCompile Include="HW_0529.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Homework01_Run.cpp">
+    <ClCompile Include="Homework01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Homework02.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Homework01_Run.h">
+    <ClInclude Include="Homework01.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Homework02.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
