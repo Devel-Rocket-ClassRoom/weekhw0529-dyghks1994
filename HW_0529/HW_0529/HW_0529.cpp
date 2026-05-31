@@ -15,7 +15,12 @@ int main()
 	srand(Seed);	// 시드값 초기화
 
 
-	//Homework01_Run();	
+	Homework01_Run();	
+
+	
+	std::cin.ignore(); // 버퍼 비우는 용도
+	getchar();
+
 	Homework02_Run();	
 }
 
